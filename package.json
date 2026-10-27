@@ -1,7 +1,7 @@
 {
   "name": "dshm-backup",
-  "version": "0.1.8",
-  "description": "DSHM（HarmonyOS DeepSeek Harness）备份与迁移工具：主动备份、健康基线备份、异常抢备，以及全新同版本实例的对话/工作区恢复。纯宿主插件，零第三方依赖。",
+  "version": "0.2.0",
+  "description": "DSHM（HarmonyOS DeepSeek Harness）全量备份与灾难恢复：聊天记录、图片附件、工作区、插件本体/配置、技能与凭据，一份 ZIP 离线恢复。纯宿主插件，零第三方依赖。",
   "private": false,
   "type": "module",
   "main": "lib/index.js",
@@ -13,6 +13,7 @@
     "lib/zip.js",
     "lib/format.js",
     "lib/util.js",
+    "lib/environment.js",
     "lib/client.js",
     "cordis.patch.yml",
     "README.md"
